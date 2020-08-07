@@ -1,3 +1,14 @@
+# NOTE from WENJIAN BI
+
+This repository from statgen/pheweb-rg-pipeline is to make a file to make pheweb server. I made some minor revise to use SumHer approach.
+
+- Use #!/usr/bin/env python3.6 to replace #!/usr/bin/env python in the header of all python files in /bin to avoid error
+- Revise /bin/format.py and SumHer.nf to minimize the input files (i.e. specify num_samples in pheno-list.json instead of in input files)
+   * In nextflow.config: LDAK, ref_panel, columns.effect, columns.sebeta, columns.snp, ...
+   * In pheno-list.json: assoc_files, num_samples, phenocode, ...
+- Please check the input files as examples
+- Slurm version works well but local version cannot use multiple CPU cores
+
 # pheweb-rg-pipeline
 
 Pipeline for calculating genetic correlations via summary statistics between >1,000 phenotypes in PheWeb.
