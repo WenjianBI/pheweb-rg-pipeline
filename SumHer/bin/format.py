@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import argparse
 import gzip
@@ -13,10 +13,10 @@ argparser.add_argument('-e', '--effect-size', metavar = 'column', dest = 'beta',
 argparser.add_argument('-se', '--se-effect', metavar = 'column', dest = 'se', default = 'sebeta', help = 'Column name for standard error of effect size.')
 argparser.add_argument('-n', '--num-samples', metavar = 'num', dest = 'n', required = True, help = 'Column name(s) for number of samples. If multiple columns are specified, they are summped up to get total sample size.')
 
-n = args.n  # 08-07-2020
 
 if __name__ == '__main__':
     args = argparser.parse_args()
+    n = float(args.n)  # 08-07-2020
     required_columns = [ args.snp, args.ea, args.oa, args.beta, args.se ]
     stats_filename = f'{args.out_prefix}.stats'
     pred_filename = f'{args.out_prefix}.nonamb'

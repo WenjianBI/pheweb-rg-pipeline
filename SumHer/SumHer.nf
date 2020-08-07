@@ -54,7 +54,7 @@ process format {
    set val(num), val(phenocode), file("${phenocode}.stats"), file("${phenocode}.nonamb"), file("${phenocode}.exclude") into formatted
 
    """
-   format.py -i ${filename} -o ${phenocode} -s ${snp} -ea ${effect_allele} -oa ${other-allele} -e ${beta} -se ${sebeta} -n num_samples
+   format.py -i ${filename} -o ${phenocode} -s ${snp} -ea ${effect_allele} -oa ${other_allele} -e ${beta} -se ${sebeta} -n ${num_samples}
    if [ -s ${phenocode}.big ]; then
       i=0
       for f in ${bed}; do

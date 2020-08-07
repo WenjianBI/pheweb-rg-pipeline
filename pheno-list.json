@@ -1,27 +1,974 @@
 [
-   {
-      "assoc_files": ["/home/data/PheCode_990_SAIGE_MACge20.txt.vcf.gz"],
-      "phenocode": 990,
-      "num_cases": 10000,
-      "num_controls": 10000
-   },
-   {
-      "assoc_files": ["/home/data/PheCode_989_SAIGE_MACge20.txt.vcf.gz"],
-      "phenocode": 989,
-      "num_cases": 100000,
-      "num_controls": 100000
-   },
-   {
-      "assoc_files": ["/home/data/PheCode_974_SAIGE_MACge20.txt.vcf.gz"],
-      "phenocode": 974,
-      "num_cases": 100000,
-      "num_controls": 100000
-   },
-   {
-      "assoc_files": ["/home/data/PheCode_964_SAIGE_MACge20.txt.vcf.gz"],
-      "phenocode": 964,
-      "num_cases": 100000,
-      "num_controls": 100000
-   }
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1011.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 204286.0,
+  "phenocode": "1011.0.0",
+  "phenostring": "Frequency of light DIY in last 4 weeks"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1021.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 203178.0,
+  "phenocode": "1021.0.0",
+  "phenostring": "Duration of light DIY"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1031.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 406598.0,
+  "phenocode": "1031.0.0",
+  "phenostring": "Frequency of friend/family visits"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1100.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 370545.0,
+  "phenocode": "1100.0.0",
+  "phenostring": "Drive faster than motorway speed limit"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1110.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 403986.0,
+  "phenocode": "1110.0.0",
+  "phenostring": "Length of mobile phone use"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1120.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 340869.0,
+  "phenocode": "1120.0.0",
+  "phenostring": "Weekly usage of mobile phone in last 3 months"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1130.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 342627.0,
+  "phenocode": "1130.0.0",
+  "phenostring": "Hands-free device/speakerphone use with mobile phone in last 3 month"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1140.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 342660.0,
+  "phenocode": "1140.0.0",
+  "phenostring": "Difference in mobile phone use compared to two years previously"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1170.0.0_sorted.txt.gz"
+  ],
+  "category": "Sleeping",
+  "num_samples": 408048.0,
+  "phenocode": "1170.0.0",
+  "phenostring": "Getting up in morning"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1180.0.0_sorted.txt.gz"
+  ],
+  "category": "Sleeping",
+  "num_samples": 365173.0,
+  "phenocode": "1180.0.0",
+  "phenostring": "Morning/evening person (chronotype)"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1190.0.0_sorted.txt.gz"
+  ],
+  "category": "Sleeping",
+  "num_samples": 408738.0,
+  "phenocode": "1190.0.0",
+  "phenostring": "Nap during day"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1200.0.0_sorted.txt.gz"
+  ],
+  "category": "Sleeping",
+  "num_samples": 408607.0,
+  "phenocode": "1200.0.0",
+  "phenostring": "Sleeplessness / insomnia"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1220.0.0_sorted.txt.gz"
+  ],
+  "category": "Sleeping",
+  "num_samples": 407530.0,
+  "phenocode": "1220.0.0",
+  "phenostring": "Daytime dozing / sleeping (narcolepsy)"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1239.0.0_sorted.txt.gz"
+  ],
+  "category": "Smoking",
+  "num_samples": 408684.0,
+  "phenocode": "1239.0.0",
+  "phenostring": "Current tobacco smoking"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1249.0.0_sorted.txt.gz"
+  ],
+  "category": "Smoking",
+  "num_samples": 376531.0,
+  "phenocode": "1249.0.0",
+  "phenostring": "Past tobacco smoking"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1259.0.0_sorted.txt.gz"
+  ],
+  "category": "Smoking",
+  "num_samples": 377048.0,
+  "phenocode": "1259.0.0",
+  "phenostring": "Smoking/smokers in household"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1329.0.0_sorted.txt.gz"
+  ],
+  "category": "Dietry",
+  "num_samples": 407011.0,
+  "phenocode": "1329.0.0",
+  "phenostring": "Oily fish intake"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1339.0.0_sorted.txt.gz"
+  ],
+  "category": "Dietry",
+  "num_samples": 407440.0,
+  "phenocode": "1339.0.0",
+  "phenostring": "Non-oily fish intake"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X134.0.0_sorted.txt.gz"
+  ],
+  "category": "Health and medical history",
+  "num_samples": 408838.0,
+  "phenocode": "134.0.0",
+  "phenostring": "Number of self-reported cancers"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1349.0.0_sorted.txt.gz"
+  ],
+  "category": "Dietry",
+  "num_samples": 408302.0,
+  "phenocode": "1349.0.0",
+  "phenostring": "Processed meat intake"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1359.0.0_sorted.txt.gz"
+  ],
+  "category": "Dietry",
+  "num_samples": 408228.0,
+  "phenocode": "1359.0.0",
+  "phenostring": "Poultry intake"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1369.0.0_sorted.txt.gz"
+  ],
+  "category": "Dietry",
+  "num_samples": 407523.0,
+  "phenocode": "1369.0.0",
+  "phenostring": "Beef intake"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1379.0.0_sorted.txt.gz"
+  ],
+  "category": "Dietry",
+  "num_samples": 406645.0,
+  "phenocode": "1379.0.0",
+  "phenostring": "Lamb/mutton intake"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1389.0.0_sorted.txt.gz"
+  ],
+  "category": "Dietry",
+  "num_samples": 406764.0,
+  "phenocode": "1389.0.0",
+  "phenostring": "Pork intake"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1408.0.0_sorted.txt.gz"
+  ],
+  "category": "Dietry",
+  "num_samples": 399307.0,
+  "phenocode": "1408.0.0",
+  "phenostring": "Cheese intake"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1478.0.0_sorted.txt.gz"
+  ],
+  "category": "Dietry",
+  "num_samples": 408845.0,
+  "phenocode": "1478.0.0",
+  "phenostring": "Salt added to food"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1518.0.0_sorted.txt.gz"
+  ],
+  "category": "Dietry",
+  "num_samples": 404652.0,
+  "phenocode": "1518.0.0",
+  "phenostring": "Hot drink temperature"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1548.0.0_sorted.txt.gz"
+  ],
+  "category": "Dietry",
+  "num_samples": 407522.0,
+  "phenocode": "1548.0.0",
+  "phenostring": "Variation in diet"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1558.0.0_sorted.txt.gz"
+  ],
+  "category": "Alcohol consumption",
+  "num_samples": 408601.0,
+  "phenocode": "1558.0.0",
+  "phenostring": "Alcohol intake frequency."
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1628.0.0_sorted.txt.gz"
+  ],
+  "category": "Alcohol consumption",
+  "num_samples": 379474.0,
+  "phenocode": "1628.0.0",
+  "phenostring": "Alcohol intake versus 10 years previously"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1687.0.0_sorted.txt.gz"
+  ],
+  "category": "Early life factors",
+  "num_samples": 402192.0,
+  "phenocode": "1687.0.0",
+  "phenostring": "Comparative body size at age 10"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1697.0.0_sorted.txt.gz"
+  ],
+  "category": "Early life factors",
+  "num_samples": 402531.0,
+  "phenocode": "1697.0.0",
+  "phenostring": "Comparative height size at age 10"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X1757.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 374342.0,
+  "phenocode": "1757.0.0",
+  "phenostring": "Facial ageing"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20018.0.0_sorted.txt.gz"
+  ],
+  "category": "Health and medical history",
+  "num_samples": 133060.0,
+  "phenocode": "20018.0.0",
+  "phenostring": "Prospective memory result"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20077.0.0_sorted.txt.gz"
+  ],
+  "category": "Dietry",
+  "num_samples": 174395.0,
+  "phenocode": "20077.0.0",
+  "phenostring": "Number of diet questionnaires completed"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20403.0.0_sorted.txt.gz"
+  ],
+  "category": "Alcohol consumption",
+  "num_samples": 121073.0,
+  "phenocode": "20403.0.0",
+  "phenostring": "Amount of alcohol drunk on a typical drinking day"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20414.0.0_sorted.txt.gz"
+  ],
+  "category": "Alcohol consumption",
+  "num_samples": 131954.0,
+  "phenocode": "20414.0.0",
+  "phenostring": "Frequency of drinking alcohol"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20416.0.0_sorted.txt.gz"
+  ],
+  "category": "Alcohol consumption",
+  "num_samples": 121322.0,
+  "phenocode": "20416.0.0",
+  "phenostring": "Frequency of consuming six or more units of alcohol"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20453.0.0_sorted.txt.gz"
+  ],
+  "category": "Smoking",
+  "num_samples": 131940.0,
+  "phenocode": "20453.0.0",
+  "phenostring": "Ever taken cannabis"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20458.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131424.0,
+  "phenocode": "20458.0.0",
+  "phenostring": "General happiness"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20459.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131777.0,
+  "phenocode": "20459.0.0",
+  "phenostring": "General happiness with own health"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20460.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 129084.0,
+  "phenocode": "20460.0.0",
+  "phenostring": "Belief that own life is meaningful"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20479.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131234.0,
+  "phenocode": "20479.0.0",
+  "phenostring": "Ever thought that life not worth living"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20485.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131597.0,
+  "phenocode": "20485.0.0",
+  "phenostring": "Ever contemplated self-harm"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20487.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131769.0,
+  "phenocode": "20487.0.0",
+  "phenostring": "Felt hated by family member as a child"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20488.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131851.0,
+  "phenocode": "20488.0.0",
+  "phenostring": "Physically abused by family as a child"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20489.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131627.0,
+  "phenocode": "20489.0.0",
+  "phenostring": "Felt loved as a child"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20490.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 130646.0,
+  "phenocode": "20490.0.0",
+  "phenostring": "Sexually molested as a child"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20491.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131265.0,
+  "phenocode": "20491.0.0",
+  "phenostring": "Someone to take to doctor when needed as a child"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20495.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131899.0,
+  "phenocode": "20495.0.0",
+  "phenostring": "Avoided activities or situations because of previous stressful experience in past month"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20497.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131933.0,
+  "phenocode": "20497.0.0",
+  "phenostring": "Repeated disturbing thoughts of stressful experience in past month"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20498.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131921.0,
+  "phenocode": "20498.0.0",
+  "phenostring": "Felt very upset when reminded of stressful experience in past month"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2050.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 391744.0,
+  "phenocode": "2050.0.0",
+  "phenostring": "Frequency of depressed mood in last 2 weeks"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20505.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131467.0,
+  "phenocode": "20505.0.0",
+  "phenostring": "Recent easy annoyance or irritability"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20506.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131594.0,
+  "phenocode": "20506.0.0",
+  "phenostring": "Recent feelings or nervousness or anxiety"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20507.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131489.0,
+  "phenocode": "20507.0.0",
+  "phenostring": "Recent feelings of inadequacy"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20508.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131924.0,
+  "phenocode": "20508.0.0",
+  "phenostring": "Recent trouble concentrating on things"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20509.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131576.0,
+  "phenocode": "20509.0.0",
+  "phenostring": "Recent inability to stop or control worrying"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20510.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131659.0,
+  "phenocode": "20510.0.0",
+  "phenostring": "Recent feelings of depression"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20511.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131940.0,
+  "phenocode": "20511.0.0",
+  "phenostring": "Recent poor appetite or overeating"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20512.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131457.0,
+  "phenocode": "20512.0.0",
+  "phenostring": "Recent feelings of foreboding"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20513.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131106.0,
+  "phenocode": "20513.0.0",
+  "phenostring": "Recent thoughts of suicide or self-harm"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20514.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131773.0,
+  "phenocode": "20514.0.0",
+  "phenostring": "Recent lack of interest or pleasure in doing things"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20515.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131708.0,
+  "phenocode": "20515.0.0",
+  "phenostring": "Recent trouble relaxing"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20516.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131793.0,
+  "phenocode": "20516.0.0",
+  "phenostring": "Recent restlessness"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20517.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131835.0,
+  "phenocode": "20517.0.0",
+  "phenostring": "Trouble falling or staying asleep, or sleeping too much"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20518.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131884.0,
+  "phenocode": "20518.0.0",
+  "phenostring": "Recent changes in speed/amount of moving or speaking"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20519.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131856.0,
+  "phenocode": "20519.0.0",
+  "phenostring": "Recent feelings of tiredness or low energy"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20520.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131570.0,
+  "phenocode": "20520.0.0",
+  "phenostring": "Recent worrying too much about different things"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20521.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131744.0,
+  "phenocode": "20521.0.0",
+  "phenostring": "Belittlement by partner or ex-partner as an adult"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20522.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 128742.0,
+  "phenocode": "20522.0.0",
+  "phenostring": "Been in a confiding relationship as an adult"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20523.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131752.0,
+  "phenocode": "20523.0.0",
+  "phenostring": "Physical violence by partner or ex-partner as an adult"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20524.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131728.0,
+  "phenocode": "20524.0.0",
+  "phenostring": "Sexual interference by partner or ex-partner without consent as an adult"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X20525.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 130157.0,
+  "phenocode": "20525.0.0",
+  "phenostring": "Able to pay rent/mortgage as an adult"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2060.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 395878.0,
+  "phenocode": "2060.0.0",
+  "phenostring": "Frequency of unenthusiasm / disinterest in last 2 weeks"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2070.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 394040.0,
+  "phenocode": "2070.0.0",
+  "phenostring": "Frequency of tenseness / restlessness in last 2 weeks"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2080.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 397041.0,
+  "phenocode": "2080.0.0",
+  "phenostring": "Frequency of tiredness / lethargy in last 2 weeks"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2110.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 397179.0,
+  "phenocode": "2110.0.0",
+  "phenostring": "Able to confide"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2178.0.0_sorted.txt.gz"
+  ],
+  "category": "Health and medical history",
+  "num_samples": 407438.0,
+  "phenocode": "2178.0.0",
+  "phenostring": "Overall health rating"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2237.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 408702.0,
+  "phenocode": "2237.0.0",
+  "phenostring": "Plays computer games"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2267.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 406221.0,
+  "phenocode": "2267.0.0",
+  "phenostring": "Use of sun/uv protection"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2296.0.0_sorted.txt.gz"
+  ],
+  "category": "Health and medical history",
+  "num_samples": 408190.0,
+  "phenocode": "2296.0.0",
+  "phenostring": "Falls in the last year"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2306.0.0_sorted.txt.gz"
+  ],
+  "category": "Health and medical history",
+  "num_samples": 402351.0,
+  "phenocode": "2306.0.0",
+  "phenostring": "Weight change compared with 1 year ago"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2375.0.0_sorted.txt.gz"
+  ],
+  "category": "Early life factors",
+  "num_samples": 181810.0,
+  "phenocode": "2375.0.0",
+  "phenostring": "Relative age of first facial hair"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2385.0.0_sorted.txt.gz"
+  ],
+  "category": "Early life factors",
+  "num_samples": 173960.0,
+  "phenocode": "2385.0.0",
+  "phenostring": "Relative age voice broke"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2624.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 165108.0,
+  "phenocode": "2624.0.0",
+  "phenostring": "Frequency of heavy DIY in last 4 weeks"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X2634.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 165311.0,
+  "phenocode": "2634.0.0",
+  "phenostring": "Duration of heavy DIY"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X3637.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 194451.0,
+  "phenocode": "3637.0.0",
+  "phenostring": "Frequency of other exercises in last 4 weeks"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X3647.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 194599.0,
+  "phenocode": "3647.0.0",
+  "phenostring": "Duration of other exercises"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X4526.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 132880.0,
+  "phenocode": "4526.0.0",
+  "phenostring": "Happiness"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X4537.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 132773.0,
+  "phenocode": "4537.0.0",
+  "phenostring": "Work/job satisfaction"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X4548.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 132929.0,
+  "phenocode": "4548.0.0",
+  "phenostring": "Health satisfaction"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X4559.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 132175.0,
+  "phenocode": "4559.0.0",
+  "phenostring": "Family relationship satisfaction"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X4570.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 131926.0,
+  "phenocode": "4570.0.0",
+  "phenostring": "Friendships satisfaction"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X4581.0.0_sorted.txt.gz"
+  ],
+  "category": "Psychosocial factors",
+  "num_samples": 132745.0,
+  "phenocode": "4581.0.0",
+  "phenostring": "Financial situation satisfaction"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X4825.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 132260.0,
+  "phenocode": "4825.0.0",
+  "phenostring": "Noisy workplace"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X4836.0.0_sorted.txt.gz"
+  ],
+  "category": "Lifestyle and environment",
+  "num_samples": 131609.0,
+  "phenocode": "4836.0.0",
+  "phenostring": "Loud music exposure frequency"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X738.0.0_sorted.txt.gz"
+  ],
+  "category": "Sociodemographics",
+  "num_samples": 351796.0,
+  "phenocode": "738.0.0",
+  "phenostring": "Average total household income before tax"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X806.0.0_sorted.txt.gz"
+  ],
+  "category": "Sociodemographics",
+  "num_samples": 230230.0,
+  "phenocode": "806.0.0",
+  "phenostring": "Job involves mainly walking or standing"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X816.0.0_sorted.txt.gz"
+  ],
+  "category": "Sociodemographics",
+  "num_samples": 230264.0,
+  "phenocode": "816.0.0",
+  "phenostring": "Job involves heavy manual or physical work"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X826.0.0_sorted.txt.gz"
+  ],
+  "category": "Sociodemographics",
+  "num_samples": 230028.0,
+  "phenocode": "826.0.0",
+  "phenostring": "Job involves shift work"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X864.0.0_sorted.txt.gz"
+  ],
+  "category": "Physical activity",
+  "num_samples": 401999.0,
+  "phenocode": "864.0.0",
+  "phenostring": "Number of days/week walked 10+ minutes"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X884.0.0_sorted.txt.gz"
+  ],
+  "category": "Physical activity",
+  "num_samples": 389189.0,
+  "phenocode": "884.0.0",
+  "phenostring": "Number of days/week of moderate physical activity 10+ minutes"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X904.0.0_sorted.txt.gz"
+  ],
+  "category": "Physical activity",
+  "num_samples": 389378.0,
+  "phenocode": "904.0.0",
+  "phenostring": "Number of days/week of vigorous physical activity 10+ minutes"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X924.0.0_sorted.txt.gz"
+  ],
+  "category": "Physical activity",
+  "num_samples": 406607.0,
+  "phenocode": "924.0.0",
+  "phenostring": "Usual walking pace"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X943.0.0_sorted.txt.gz"
+  ],
+  "category": "Physical activity",
+  "num_samples": 405154.0,
+  "phenocode": "943.0.0",
+  "phenostring": "Frequency of stair climbing in last 4 weeks"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X971.0.0_sorted.txt.gz"
+  ],
+  "category": "Physical activity",
+  "num_samples": 291168.0,
+  "phenocode": "971.0.0",
+  "phenostring": "Frequency of walking for pleasure in last 4 weeks"
+ },
+ {
+  "assoc_files": [
+   "/net/csgspare2/spare1/wenjianb/OLR/pheweb/X981.0.0_sorted.txt.gz"
+  ],
+  "category": "Physical activity",
+  "num_samples": 291013.0,
+  "phenocode": "981.0.0",
+  "phenostring": "Duration walking for pleasure"
+ }
 ]
-
