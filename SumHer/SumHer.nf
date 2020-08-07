@@ -5,14 +5,18 @@ import groovy.json.JsonSlurper
 phenotypes_json = (new JsonSlurper()).parseText(file('pheno-list.json').text)
 
 format_params = []
-phenotypes_json.eachWithIndex{ val, num -> format_params.add( [num, val.phenocode.replaceAll('\\.', '__'), val.assoc_files[0]] ) } 
+phenotypes_json.eachWithIndex{ val, num -> format_params.add( [num, val.phenocode.replaceAll('\\.', '__'), val.assoc_files[0], val.num_samples] ) } 
 
 bim = Channel.fromPath(params.ref_panel + "/*.bim").collect()
 bed = Channel.fromPath(params.ref_panel + "/*.bed").collect()
 fam = Channel.fromPath(params.ref_panel + "/*.fam").collect()
 
 ldak_exec = params.LDAK
-
+snp = params.columns.snp
+beta = params.columns.effect
+sebeta = params.columns.sebeta
+effect_allele = params.columns.effect_allele
+other_allele = params.columns.other_allele
 
 process mhc {
 
@@ -40,7 +44,7 @@ process format {
    maxRetries 3
 
    input:
-   set val(num), val(phenocode), val(filename) from format_params
+   set val(num), val(phenocode), val(filename), val(num_samples) from format_params
    file bed from bed
    file bim from bim
    file fam from fam
@@ -50,7 +54,7 @@ process format {
    set val(num), val(phenocode), file("${phenocode}.stats"), file("${phenocode}.nonamb"), file("${phenocode}.exclude") into formatted
 
    """
-   format.py -i ${filename} -o ${phenocode}
+   format.py -i ${filename} -o ${phenocode} -s ${snp} -ea ${effect_allele} -oa ${other-allele} -e ${beta} -se ${sebeta} -n num_samples
    if [ -s ${phenocode}.big ]; then
       i=0
       for f in ${bed}; do
