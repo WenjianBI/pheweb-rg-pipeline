@@ -11,12 +11,13 @@ argparser.add_argument('-ea', '--effect-allele', metavar = 'column', dest = 'ea'
 argparser.add_argument('-oa', '--other-allele', metavar = 'column', dest = 'oa', default = 'REF', help = 'Column name for other allele.')
 argparser.add_argument('-e', '--effect-size', metavar = 'column', dest = 'beta', default = 'beta', help = 'Column name for effect size (log odds).')
 argparser.add_argument('-se', '--se-effect', metavar = 'column', dest = 'se', default = 'sebeta', help = 'Column name for standard error of effect size.')
-argparser.add_argument('-n', '--num-samples', metavar = 'column', nargs = '+', dest = 'n', default = ['num_cases', 'num_controls'], help = 'Column name(s) for number of samples. If multiple columns are specified, they are summped up to get total sample size.')
+argparser.add_argument('-n', '--num-samples', metavar = 'num', dest = 'n', required = True, help = 'Column name(s) for number of samples. If multiple columns are specified, they are summped up to get total sample size.')
 
+n = args.n  # 08-07-2020
 
 if __name__ == '__main__':
     args = argparser.parse_args()
-    required_columns = [ args.snp, args.ea, args.oa, args.beta, args.se ] + args.n
+    required_columns = [ args.snp, args.ea, args.oa, args.beta, args.se ]
     stats_filename = f'{args.out_prefix}.stats'
     pred_filename = f'{args.out_prefix}.nonamb'
     le_pred_filename = f'{args.out_prefix}.big'
@@ -44,7 +45,7 @@ if __name__ == '__main__':
             a1 = record[args.ea].upper()
             a2 = record[args.oa].upper()
             try:
-                n = sum(map(int, (record[c] for c in args.n)))
+                # n = sum(map(int, (record[c] for c in args.n)))  # 08-07-2020
                 stat = (float(record[args.beta]) / float(record[args.se])) ** 2
             except: # catch possible type conversion or division by 0 errors
                 continue
