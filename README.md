@@ -9,6 +9,10 @@ This repository from statgen/pheweb-rg-pipeline is to make a file to make pheweb
 - Please check the input files as examples
 - Slurm version works well but local version cannot use multiple CPU cores
 
+# TO DO for WENJIAN BI
+
+It seems that LDSC does not require num_cases/num_controls, we can provide num_samples instead. I will check if this is true first, if that is correct, I will come back to revise this tool a little bit for my analysis (not for binary trait).
+
 # pheweb-rg-pipeline
 
 Pipeline for calculating genetic correlations via summary statistics between >1,000 phenotypes in PheWeb.
